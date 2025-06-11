@@ -3,22 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codle Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Codle - Coding Terms Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-container">
-        <h1>Codle</h1>
-        <div id="score">Score: 0</div>
-        <div id="game-board">
-            <!-- Placeholder for guesses -->
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                <span class="code-bracket">&lt;</span>
+                Codle
+                <span class="code-bracket">/&gt;</span>
+            </h1>
+            <p class="subtitle">Guess the coding term based on its categories</p>
+        </header>
+
+        <div class="game-stats">
+            <div class="stat-item">
+                <span class="stat-label">Score</span>
+                <span id="score" class="stat-value">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Attempts</span>
+                <span id="attempts" class="stat-value">6</span>
+            </div>
         </div>
-        <input type="text" id="guess-input" placeholder="Enter coding term">
-        <button id="submit-guess">Submit</button>
-        <button id="restart-game">Restart Game</button>
-        <div id="leaderboard">
-            <!-- Placeholder for leaderboard -->
+
+        <div class="game-board-container">
+            <table id="game-board" class="game-table">
+                <thead>
+                    <tr>
+                        <th class="guess-header">Your Answer</th>
+                        <th class="category-header">DataType</th>
+                        <th class="category-header">Language</th>
+                        <th class="category-header">ControlFlow</th>
+                        <th class="category-header">Algorithm</th>
+                        <th class="category-header">DataStructure</th>
+                        <th class="category-header">DevTool</th>
+                        <th class="category-header">IDE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Game guesses will be inserted here -->
+                </tbody>
+            </table>
         </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="guess-input" 
+                    class="guess-input"
+                    placeholder="Enter coding term..."
+                    autocomplete="off"
+                >
+                <button id="submit-guess" class="btn btn-primary">
+                    Submit
+                </button>
+            </div>
+            <div id="alert-message" class="alert-message"></div>
+        </div>
+
+        <div class="game-actions">
+            <button id="show-word-list" class="btn btn-secondary">
+                📋 Show Word List
+            </button>
+            <button id="restart-game" class="btn btn-outline" style="display: none;">
+                🔄 Restart Game
+            </button>
+        </div>
+
+        <!-- Word List Modal -->
+        <div id="word-list-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Available Coding Terms</h3>
+                    <button id="close-word-list" class="btn-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <ul id="word-list-items" class="word-list">
+                        <!-- Word list will be populated here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Result Modal -->
+        <div id="result-modal" class="modal">
+            <div class="modal-content result-modal-content">
+                <div class="modal-header result-header">
+                    <h3 id="result-title">Game Result</h3>
+                </div>
+                <div class="modal-body result-body">
+                    <div id="result-icon" class="result-icon"></div>
+                    <p id="result-message" class="result-message"></p>
+                    <div id="result-stats" class="result-stats"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="play-again-btn" class="btn btn-primary">Play Again</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="hint" class="hint"></div>
     </div>
 
     <script src="game.js"></script>

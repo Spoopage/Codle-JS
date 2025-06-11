@@ -1,0 +1,50 @@
+[
+    {
+        "term": "function",
+        "categories": {
+            "isDataType": false,
+            "isControlFlow": false,
+            "isAlgorithm": false,
+            "isDataStructure": false,
+            "isProgrammingLanguage": true,
+            "isDevTool": false,
+            "isIDE": false
+        }
+    },
+    {
+        "term": "let",
+        "categories": {
+            "isDataType": true,
+            "isControlFlow": false,
+            "isAlgorithm": false,
+            "isDataStructure": false,
+            "isProgrammingLanguage": true,
+            "isDevTool": false,
+            "isIDE": false
+        }
+    },
+    {
+        "term": "React",
+        "categories": {
+            "isDataType": false,
+            "isControlFlow": false,
+            "isAlgorithm": false,
+            "isDataStructure": false,
+            "isProgrammingLanguage": true,
+            "isDevTool": true,
+            "isIDE": true
+        }
+    },
+    {
+        "term": "Docker",
+        "categories": {
+            "isDataType": false,
+            "isControlFlow": false,
+            "isAlgorithm": false,
+            "isDataStructure": false,
+            "isProgrammingLanguage": false,
+            "isDevTool": true,
+            "isIDE": false
+        }
+    }
+]
