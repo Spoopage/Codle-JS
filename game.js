@@ -180,6 +180,355 @@ const codingTerms = [
       isIDE: false,
     },
   },
+  {
+  "term": "html",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "css",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "regex",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": true,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "nodejs",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "api",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "angular",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "typescript",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "mongodb",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": true,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "bash",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "kubernetes",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "html5",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "css3",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "reactjs",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "json",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": true,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "sql",
+  "categories": {
+    "isProgrammingLanguage": true,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "express",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "ajax",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "npm",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "function",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "variable",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": true,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "class",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "integer",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": true,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "object",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": true,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "debugging",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "syntax",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "console",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+},
+{
+  "term": "index",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": true,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "char",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": true,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": false,
+    "isIDE": false
+  }
+},
+{
+  "term": "clone",
+  "categories": {
+    "isProgrammingLanguage": false,
+    "isDataType": false,
+    "isControlFlow": false,
+    "isAlgorithm": false,
+    "isDataStructure": false,
+    "isDevTool": true,
+    "isIDE": false
+  }
+}
+
 ]
 
 // Game variables
@@ -207,7 +556,7 @@ function startGame() {
   guesses = []
   remainingAttempts = 6
   currentTermIndex = Math.floor(Math.random() * codingTerms.length)
-  console.log("Selected term:", codingTerms[currentTermIndex])
+//   console.log("Selected term:", codingTerms[currentTermIndex])          // Logs answer to console for debugging
   updateGameBoard()
   updateScore()
   updateAttempts()
